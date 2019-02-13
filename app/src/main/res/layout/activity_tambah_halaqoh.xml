@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_halaqoh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Halaqoh" />
+
+        <EditText
+            android:id="@+id/et_nama_santri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Santri" />
+
+        <EditText
+            android:id="@+id/et_tanggal_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir" />
+
+        <EditText
+            android:id="@+id/et_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kelas" />
+
+
+        <EditText
+            android:id="@+id/et_asal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Asal Daerah" />
+
+        <EditText
+            android:id="@+id/et_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor HP Orang Tua"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Gender" />
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ikhwan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Ikhwan" />
+
+            <RadioButton
+                android:id="@+id/akhwat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:checked="false"
+                android:text="Akhwat" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/et_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:text="Tambah Halaqoh" />
+    </LinearLayout>
+
+</ScrollView>

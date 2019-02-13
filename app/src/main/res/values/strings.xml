@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Molantri</string>
+    <array name="alquran">
+        <item>Juz 1</item>
+        <item>Juz 2</item>
+        <item>Juz 3</item>
+        <item>Juz 4</item>
+        <item>Juz 5</item>
+        <item>Juz 6</item>
+        <item>Juz 7</item>
+        <item>Juz 8</item>
+        <item>Juz 9</item>
+        <item>Juz 10</item>
+        <item>Juz 11</item>
+        <item>Juz 12</item>
+        <item>Juz 13</item>
+        <item>Juz 15</item>
+        <item>Juz 15</item>
+        <item>Juz 16</item>
+        <item>Juz 17</item>
+        <item>Juz 18</item>
+        <item>Juz 19</item>
+        <item>Juz 20</item>
+        <item>Juz 21</item>
+        <item>Juz 22</item>
+        <item>Juz 23</item>
+        <item>Juz 24</item>
+        <item>Juz 25</item>
+        <item>Juz 26</item>
+        <item>Juz 27</item>
+        <item>Juz 28</item>
+        <item>Juz 29</item>
+        <item>Juz 30</item>
+    </array>
+    <array name="nilai">
+        <item>Mumtaz</item>
+        <item>Jayyid</item>
+        <item>Maqbul</item>
+    </array>
+</resources>

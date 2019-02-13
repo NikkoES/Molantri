@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ahsin.molantri">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".application.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/png1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/png1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="MyDatabase.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="5" />
+        <meta-data
+            android:name="AA_DB_MODEL"
+            android:value="com.ahsin.molantri.model.Halaqoh" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.ahsin.molantri.model.Halaqoh, com.ahsin.molantri.model.Hafalan, com.ahsin.molantri.model.Ujian" />
+
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.halaqoh.KelolaHalaqohActivity" />
+        <activity android:name=".activity.hafalan.KelolaHafalanActivity" />
+        <activity android:name=".activity.halaqoh.TambahHalaqohActivity" />
+        <activity android:name=".activity.hafalan.ListHafalanActivity" />
+        <activity android:name=".activity.ujian.KelolaUjianActivity" />
+        <activity android:name=".activity.ujian.ListUjianActivity" />
+        <activity android:name=".activity.hafalan.DetailHafalanActivity" />
+        <activity android:name=".activity.ujian.DetailUjianActivity" />
+        <activity android:name=".activity.halaqoh.DetailHalaqohActivity" />
+        <activity android:name=".activity.hafalan.TambahHafalanActivity" />
+        <activity android:name=".activity.ujian.TambahUjianActivity"></activity>
+    </application>
+
+</manifest>

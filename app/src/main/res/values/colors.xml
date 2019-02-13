@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#309c34</color>
+    <color name="colorAccent">#f3803c</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0004</color>
+    <color name="orange">#ff9d00</color>
+    <color name="grey">#e0e0e0</color>
+    <color name="greyAlpha">#aae0e0e0</color>
+    <color name="lightblack">#616161</color>
+    <color name="lightblue">#6a92d9</color>
+    <color name="lightred">#db5754</color>
+
+    <color name="textblack">#232323</color>
+
+    <color name="bottomtab_item_resting">#9a020101</color>
+    <color name="bottomtab_item_disabled">#82000000</color>
+
+    <color name="bottomtab">#fafafa</color>
+    <color name="bottomtab_active">#076fca</color>
+
+    <color name="bg_dark">#263238</color>
+
+    <color name="divider_light">#0c000000</color>
+
+    <color name="green_text">#4CAF50</color>
+    <color name="blue_fb">#2196F3</color>
+    <color name="red_google">#F44336</color>
+</resources>
