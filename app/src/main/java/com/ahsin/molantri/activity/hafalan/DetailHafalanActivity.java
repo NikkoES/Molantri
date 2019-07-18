@@ -49,9 +49,10 @@ public class DetailHafalanActivity extends AppCompatActivity {
         etHalaqoh.setText(halaqoh.namaHalaqoh);
         etNamaSantri.setText(halaqoh.namaSantri);
         etJumlahJuz.setText(hafalan.juz);
-        etIsiPesan.setText("Assalamu'alaikum Bapak/Ibu Wali" + "\n" +
+        isiPesan = "Assalamu'alaikum Bapak/Ibu Wali" + "\n" +
                 "Alhamduliilah anak bapak " + halaqoh.namaSantri + " telah menyelesaikan hafalan juz " + hafalan.juz + "\n" +
-                "Semoga anak bapak bisa mengamalkan hafalan Qur'annya serta dapat menjaga hafalannya, Aamiin..");
+                "Semoga anak bapak bisa mengamalkan hafalan Qur'annya serta dapat menjaga hafalannya, Aamiin..";
+        etIsiPesan.setText(isiPesan);
     }
 
     @OnClick(R.id.btn_kirim)

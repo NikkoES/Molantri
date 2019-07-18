@@ -12,6 +12,14 @@
         android:roundIcon="@drawable/png1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <provider
+            android:name="com.activeandroid.content.ContentProvider"
+            android:authorities="com.ahsin.molantri"
+            android:enabled="true"
+            android:exported="false">
+        </provider>
+
         <meta-data
             android:name="AA_DB_NAME"
             android:value="MyDatabase.db" />
